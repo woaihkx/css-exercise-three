@@ -46,7 +46,7 @@ h3 {
   border-bottom: 0.5px solid gray;
 }
 
-.location:hover { background-color: yellow; }
+.location:hover { background-color: #aaa; }
 
 .arrow {
   display: inline-block;
