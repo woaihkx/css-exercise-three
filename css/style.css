@@ -28,14 +28,16 @@ nav {
 }
 
 h1 {
-  font-size: 2.0em;
+  font-size: 1.8em;
   font-weight: bolder;
-  line-height: 1.4;
+  line-height: 1.6;
+  margin: 0;
 }
 
 h3 {
-  font-size: 1.5em;
-  font-weight: normal;
+  font-size: 1.4em;
+  font-weight: 400;
+  margin: 0;
 }
 
 .location {
@@ -47,11 +49,13 @@ h3 {
 .location:hover { background-color: yellow; }
 
 .arrow {
-  padding-left: 90%;
-  padding-top: 7%;
+  display: inline-block;
+  position: relative;
+  top: -8px;
 }
 
 .content {
-  float: left;
+  display: inline-block;
   padding-top: 4%;
+  width: 90%;
 }
